@@ -1,0 +1,24 @@
+/* Fondo principal */
+.stApp {
+    background-color: #88A2E1 ;
+}
+
+/* Todos los textos */
+html, body, .stTextInput>div>div>input, .stSelectbox>div>div>select, 
+.stSlider>div>div>div>div, .stRadio>div, .stMarkdown {
+    color: #000806 !important;
+}
+
+/* Botones */
+.stButton>button {
+    background-color: white !important;
+    color: whitesmoke  !important;
+    border-radius: 8px;
+    font-weight: bold;
+    border: none;
+}
+
+/* Sidebar */
+[data-testid="stSidebar"] {
+    background-color: #E4FEB5  !important;
+}

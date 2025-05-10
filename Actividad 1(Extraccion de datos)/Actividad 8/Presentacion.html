@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+        body {
+            background-color: #fff59d;
+            font-size: 25px; 
+            font-family: Arial, sans-serif; 
+            font-weight: normal; 
+            color: #333;
+        }
+
+        .header {
+            background-color: #1b3039;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 85px;
+            padding: 0 10%;
+            position: relative;
+        }
+
+        .logo-container {
+            display: flex;
+            align-items: center;
+            height: 100%;
+        }
+
+        .logo-img {
+            height: 70px;
+            width: auto;
+            transition: transform 0.3s ease;
+        }
+
+        .logo-img:hover {
+            transform: scale(1.1);
+        }
+
+        .nav-links {
+            list-style: none;
+            display: flex;
+            margin: 0;
+            padding: 0;
+        }
+
+        .nav-links li {
+            padding: 0 20px;
+            transition: transform 0.3s ease;
+        }
+
+        .nav-links li:hover {
+            transform: scale(1.1);
+        }
+
+        .nav-links a {
+            font-weight: 700;
+            color: #eceff1;
+            text-decoration: none;
+            font-size: 22px;
+        }
+
+        .nav-links li a:hover {
+            color: #ffbc0e;
+        }
+
+        .btn {
+            font-weight: 700;
+            color: #1b3039;
+            padding: 9px 25px;
+            background: #eceff1;
+            border: none;
+            border-radius: 50px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-size: 22px;
+        }
+
+        .btn:hover {
+            background-color: #e2f1f8;
+            color: #ffbc0e;
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="logo-container">
+            <img src="logo.png" alt="Dirbnb logo" class="logo-img">
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#">Bangkook</a></li>
+                <li><a href="#">Diccionario</a></li>
+                <li><a href="#">Airbnb</a></li>
+            </ul>
+        </nav>
+        <button class="btn">Contacto</button>
+    </header>
+
+    <h1>¡Bienvenido a Dashkook!</h1>
+    <br>
+    <h3>Tu herramienta integral para la Ciudad de los Ángeles</h3>
+    <p>Este dashboard te ofrece una serie de diversas herramientas profesionales y de gran utilidad para explorar, analizar y visualizar información clave sobre los alojamientos de Bangkok dentro de la plataforma de Airbnb.
+        Ofreciendo las siguientes herramienta: </p>
+
+    <h4>📊 Análisis de Frecuencias</h4>
+    <p>Esta opcion te permitira explorar diferentes distribuciones de precios y características mediante tablas de frecuencia por intervalos personalizables y una serie de gráficos interactivos.</p>
+
+    <h4>📈 Relaciones entre Variables</h4>
+            <p>Descubre correlaciones y patrones ocultos con los diagramas de dispersión </p>
+    <h4> View 3</h4>
+       <p> Descripcion</p>
+
+        <h4> View 4</h4>
+        <p> Descripcion</p>
+
+        <h2 style="margin-top: 2rem;">¿Cómo comenzar?</h2>
+        <ol>
+            <li>Utiliza el menú lateral para navegar entre las diferentes vistas</li>
+            <li>Personaliza los filtros según tus necesidades de análisis</li>
+            <li>Descubre comportamientos o anomalias que pueden representar una oportunidad de crecimiento</li>
+        </ol>
+</body>
+</html>
